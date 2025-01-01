@@ -184,7 +184,8 @@
     text-align: center;
 }
 @media (max-width:600px) {
-    #home{width: 100vw;
+    #home{top: -5.3%;
+        width: 100vw;
         height: 100vh;}
     #h1{margin-top: 5%;
         margin-bottom: 6%;
