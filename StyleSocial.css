@@ -152,7 +152,7 @@
     width: 80%;
     background: none;
 }
-
+@media(hover: hover) {
 #b1s:hover{
     transition: 0.5s;
     z-index: 5;
@@ -238,7 +238,7 @@
     padding-top: 12%;
     padding-right: 20%;
 }
-
+}
 @media (max-width:600px) {
     #social{
         height: 100%;
