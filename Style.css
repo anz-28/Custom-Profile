@@ -11,7 +11,7 @@
     letter-spacing: 2px;
     padding: 0;
     margin: 0;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 @keyframes breathingbg {
     0%{background-position:72% 0%}
