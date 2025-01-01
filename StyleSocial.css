@@ -1,8 +1,12 @@
 #social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
-    width:100%; 
-    height:100%;
-    left: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
     z-index: 5;
     background:none;
     backdrop-filter: blur(5px) brightness(40%);
@@ -10,22 +14,21 @@
     opacity: 0;
 }
 
-.he1{
-    position: absolute;
+.he1{position: absolute;
+    text-align: center;
+    width: 100%;
     top: 0;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding-top: 6%;
+    left:0;
     text-align:center;
     font-size: 40px;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-bottom: 5%;
     height: auto;
     background: none;
+    z-index: 6;
 
 }
 .greet{
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -42,6 +45,7 @@
 }
 .socials{
     height: 500px;
+    width: 600px;
     background: none;
     display: flex;
     flex-direction: column;
@@ -96,9 +100,10 @@
     border-radius: 1cm;
 }
 #btext1{
+    width: 60%;
     height: auto;
     padding-top: 9%;
-    padding-right: 30%;
+    padding-right: 5%;
     font-size: 150%;
     background: none;
 
@@ -110,24 +115,25 @@
     background: none;
 }
 #btext2{
-    width: 200%;
+    width: 100%;
     height: auto;
     padding-top: 9%;
+    padding-right: 10%;
     font-size:150%;
     background: none;
 
 }
 #icon2{
-    padding-left: 8%;
     padding-top: 4%;
     height: 80%;
     width: 80%;
     background: none;
 }
 #btext3{
+    width: 60%;
     height: auto;
     padding-top: 9%;
-    padding-right: 34%;
+    padding-right: 4%;
     font-size:150%;
     background: none;
 }
@@ -139,9 +145,10 @@
     background: none;
 }
 #btext4{
+    width: 40%;
     height: auto;
     padding-top: 9%;
-    padding-right: 30%;
+    padding-right: 18%;
     font-size:150%;
     background: none;
 }
@@ -154,17 +161,17 @@
 }
 @media(hover: hover) {
 #b1s:hover{
-    transition: 0.5s;
+    transition: 0.5s ease;
     z-index: 5;
     height: 80px;
     width: 200px;
     background: linear-gradient(270deg, #6e6e6e, #ffffff, #6e6e6e);
     background-size: 600% 600%;
 
-    animation: AnimationName 0s ease infinite;
+    animation: socialbuttondiscord 0s ease infinite;
 }
 
-@keyframes AnimationName {
+@keyframes socialbuttondiscord {
     0%{background-position:82% 0%}
     50%{background-position:19% 100%}
     100%{background-position:82% 0%}
@@ -173,7 +180,7 @@
     transition: 0.5s;
     font-size: 160%;
     padding-top: 12%;
-    padding-right: 30%;
+    padding-right: 7%;
 }
 #b2s:hover{
     transition: 0.5s;
@@ -182,10 +189,10 @@
     background: linear-gradient(270deg, #6e6e6e, #ffffff, #6e6e6e);
     background-size: 600% 600%;
 
-    animation: AnimationName 0s ease infinite;
+    animation: socialbuttongithub 0s ease infinite;
 }
 
-@keyframes AnimationName {
+@keyframes socialbuttongithub {
     0%{background-position:82% 0%}
     50%{background-position:19% 100%}
     100%{background-position:82% 0%}
@@ -194,7 +201,7 @@
     transition: 0.5s;
     font-size: 160%;
     padding-top: 13%;
-    padding-right: 4%;
+    padding-right: 10%;
 }
 #b3s:hover{
     transition: 0.5s;
@@ -203,10 +210,10 @@
     background: linear-gradient(270deg, #6e6e6e, #ffffff, #6e6e6e);
     background-size: 600% 600%;
 
-    animation: AnimationName 0s ease infinite;
+    animation: socialbuttoninsta 0s ease infinite;
 }
 
-@keyframes AnimationName {
+@keyframes socialbuttoninsta {
     0%{background-position:82% 0%}
     50%{background-position:19% 100%}
     100%{background-position:82% 0%}
@@ -215,7 +222,7 @@
     transition: 0.5s;
     font-size: 160%;
     padding-top: 12%;
-    padding-right: 30%;
+    padding-right: 6%;
 }
 #b4s:hover{
     transition: 0.5s;
@@ -224,10 +231,10 @@
     background: linear-gradient(270deg, #6e6e6e, #ffffff, #6e6e6e);
     background-size: 600% 600%;
 
-    animation: AnimationName 0s ease infinite;
+    animation: socialbuttionmail 0s ease infinite;
 }
 
-@keyframes AnimationName {
+@keyframes socialbuttionmail {
     0%{background-position:82% 0%}
     50%{background-position:19% 100%}
     100%{background-position:82% 0%}
@@ -244,15 +251,20 @@
         height: 100%;
         width: 100%;
     }
-    .he1{width: 90%;
+    .he1{width: 100%;
         letter-spacing: 1px;
-        padding-top: 35%;
+        padding-top: 20%;
         font-size: 40px;
         font-weight: 600;
     }
     .greet{
+        transform: translate(-50%,-30%);
         height:60%;
-        width: 75%;
+        width: 90%;
+    }
+    .socials{
+        height: 100%;
+        width: 100%;
     }
 
 }

@@ -30,9 +30,10 @@ function fadeout(y){
   var y;
   const outsideid = social.getAttribute("id");
   const button1id = b1.getAttribute("id");
+  const button1imgid = iconsoc.getAttribute("id");
   const clickregister=(event)=>{
     y=event.target.id;
-    if (y == button1id){
+    if (y == button1id || y == button1imgid){
       fadein(12);
     }
     else if (y==outsideid) {
