@@ -17,13 +17,20 @@
     50%{background-position:29% 100%}
     100%{background-position:72% 0%}
 }
-#home{
-}
 #body{
     position: relative;
     background: none;
 }
+#home{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+
+}
 #h1{
+    background: none;
     font-size: 50px;
     font-weight: 600;
     letter-spacing: 4px;
@@ -75,6 +82,7 @@
     font-size: 35px;
     color: white;
 }
+
 #b2{    
     clip-path: polygon(0 0,100% 100%,0 100%);
     position: fixed;
@@ -132,7 +140,7 @@
     height: 240px;
     background: none;
     text-align: center;
-    padding: 6% 10% 5% ;
+    padding: 5% 10% 5% ;
 }
 
 #content2{
@@ -142,8 +150,6 @@
     padding: 5% 10% 5% ;
 }
 @media (max-width:600px) {
-    *{
-        }
     #home{width: 100vw;
         height: 100vh;}
     #h1{
