@@ -1,7 +1,7 @@
 *{
     background: linear-gradient(90deg, #000000, #949494);
     background-size: 400% 400%;
-    animation: AnimationName 10s ease infinite;
+    animation: breathingbg 10s ease infinite;
     height: 100vh;
     font-family: "Chakra Petch", sans-serif;
     font-weight: 400;
@@ -10,9 +10,9 @@
     letter-spacing: 2px;
     padding: 0;
     margin: 0;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
-@keyframes AnimationName {
+@keyframes breathingbg {
     0%{background-position:72% 0%}
     50%{background-position:29% 100%}
     100%{background-position:72% 0%}
@@ -27,6 +27,7 @@
     width: 100%;
     height: 100%;
     background: none;
+    z-index: 0;
 
 }
 #h1{
@@ -125,9 +126,9 @@
 	width:auto;
 }
 .content{
-    height: 700px;
+    height: 80%;
     background: none;
-    line-height: 40px;
+    line-height: 130%;
     font-size: 20px;
     width: 70%;
     position: relative;
@@ -137,17 +138,19 @@
     z-index: 0;
 }
 #content1{
-    height: 240px;
+    margin-top: 5%;
+    height:30%;
     background: none;
     text-align: center;
-    padding: 5% 10% 5% ;
+    padding: 2% 10% 2% ;
 }
 
 #content2{
-    height: 150px;
+    margin-top: 5%;
+    height: 20%;
     background: none;
     text-align: center;
-    padding: 5% 10% 5% ;
+    padding: 2% 10% 2% ;
 }
 @media (max-width:600px) {
     #home{width: 100vw;
