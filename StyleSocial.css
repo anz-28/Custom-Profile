@@ -247,7 +247,7 @@
 }
 }
 @media (max-width:600px) {
-    #social{
+    #social{top: -5.3%;
         height: 100%;
         width: 100%;
     }
@@ -265,6 +265,18 @@
     .socials{
         height: 100%;
         width: 100%;
+    }
+    #b1s{
+        margin-top: 75px;
+    }
+    #btext1{
+        padding-right: 30%;
+    }
+    #btext3{
+        padding-right: 40%;
+    }
+    #btext4{
+        padding-right: 30%;
     }
 
 }
