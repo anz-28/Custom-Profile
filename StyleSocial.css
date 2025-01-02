@@ -43,7 +43,7 @@
     background: none;
     display: flex;
     flex-direction: column;
-justify-content: center;
+    justify-content: center;
     z-index: 6;
     gap: 10%;
 }

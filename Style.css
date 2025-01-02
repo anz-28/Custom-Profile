@@ -185,7 +185,7 @@
     overflow: visible;
 }
 @media (max-width:600px) {
-    #home{top: -5.3%;
+    #home{top: -6%;
         width: 100vw;
         height: 100vh;
         justify-content: center;}
@@ -243,7 +243,7 @@
     
     #b2{
         height: 10%;
-        width: 22%;
+        width: 20%;
         font-size: 10px;
         color: #ffffff;
         padding-top: 9%;
@@ -257,12 +257,35 @@
         color: #ffffff;
 
     }
+    @media(hover: hover) {
+        #b1:hover{
+            top: 85%;
+            transition: 0.7s;
+            background: #313131;
+            height: 15%;
+            width: 30%;
+            color: white;
+            padding-top: 8%;
+            padding-left: 10;
+            padding-bottom: 0;
+
+        }
+    }
     #b1:active
     {   
         background: #313131;
         height: 60px;
         width:60px;
         color: white;
+    }
+    @media(hover: hover) {
+        #b2:hover{
+            transition: 0.7s;
+            background: #313131;
+            height: 15%;
+            width: 30%;
+            color: white;
+        }
     }
     #b2:active
     {
