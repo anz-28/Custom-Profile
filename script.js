@@ -41,7 +41,3 @@ function fadeout(y){
     }
   }
   document.addEventListener("click", clickregister)
-  if(smedia.style.display = "block"){
-  window.addEventListener("backbutton", fadeout(12))
-  }
-  
