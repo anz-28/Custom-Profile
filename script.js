@@ -7,7 +7,7 @@ function fadein(z){
     var intervalID = setInterval(function() {
         if (op < 1){
 
-            op += 0.05;
+            op += 0.07;
             smedia.style.opacity = op; 
       }else {
             clearInterval(intervalID); 
@@ -19,7 +19,7 @@ function fadeout(y){
     var intervalID = setInterval(function() {
         if (op > 0){
 
-            op -= 0.05;
+            op -= 0.07;
             smedia.style.opacity = op; 
       }else { 
             clearInterval(intervalID);
@@ -34,10 +34,10 @@ function fadeout(y){
   const clickregister=(event)=>{
     y=event.target.id;
     if (y == button1id || y == button1imgid){
-      fadein(12);
+      fadein(25);
     }
     else if (y==outsideid) {
-      fadeout(12);
+      fadeout(15);
     }
   }
   document.addEventListener("click", clickregister)
