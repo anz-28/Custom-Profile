@@ -187,7 +187,7 @@
 @media (max-width:600px) {
     #home{top: 0;
         width: 100vw;
-        height: 100vh;
+        height: 100dvh;
         justify-content: center;}
     #h1{height: 80px;
         margin-top: 5%;
@@ -205,11 +205,11 @@
         font-weight: 100;
         gap: 5%;
     }
-    #content1 {height: 250px ;
+    #content1 {height: 210px ;
         line-height: 130%;
         overflow: visible;
         }
-    #content2{height: 200px;
+    #content2{height: 150px;
         line-height: 130%;
     overflow: visible;}
     .designbox1{
