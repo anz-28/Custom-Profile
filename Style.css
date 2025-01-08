@@ -185,7 +185,7 @@
     overflow: visible;
 }
 @media (max-width:600px) {
-    #home{top: -6%;
+    #home{top: 0;
         width: 100vw;
         height: 100vh;
         justify-content: center;}
