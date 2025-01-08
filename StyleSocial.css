@@ -229,7 +229,8 @@
 }
 }
 @media (max-width:600px) {
-    #social{top: -5.3%;
+    #social{
+        top: -5.3%;
         height: 100%;
         width: 100%;
     }
@@ -237,7 +238,7 @@
         letter-spacing: 1px;
         padding-top: 20%;
         padding-bottom: 10%;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 600;
     }
     .greet{
